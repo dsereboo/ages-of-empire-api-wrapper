@@ -4,11 +4,12 @@
   "description": "GraphQL data source abstractio over ages of empire 2 REST API",
   "main": "index.js",
   "scripts": {
-    "serve":"nodemon ."
+    "serve": "nodemon ."
   },
   "author": "dsereboo",
   "license": "MIT",
   "dependencies": {
+    "apollo-datasource-rest": "^3.6.1",
     "apollo-server": "^3.9.0",
     "graphql": "^16.5.0"
   },
