@@ -4,12 +4,12 @@ const typeDefs=gql`
     type civilization{
         id:ID!
         name:String!
-        armyType:String!
+        army_type:String!
     }
 
     type Query{
-        allCivilizations:[civilization!]!
-        civilization(id:ID!):civilization!
+        allCivilizations:civilization
+        oneCivilization(id:ID!):civilization!
     }
 `
 
